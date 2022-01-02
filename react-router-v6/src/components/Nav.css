@@ -1,0 +1,21 @@
+.nav {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: #03071e;
+}
+.nav__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 17px;
+  color: white;
+}
+.nav__container a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.nav__container a.active{
+  color: #ffe500;
+}
